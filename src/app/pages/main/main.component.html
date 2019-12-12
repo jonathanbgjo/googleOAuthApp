@@ -1,0 +1,20 @@
+<p>main works!</p>
+<h1>oAuth App!</h1>
+
+<ul>
+  <li *ngFor="let user of users; let i = index" >
+      {{user.name}} {{user.email}} {{user.user_id}} {{i}}
+  </li>
+</ul>
+
+
+<button (click)="signIn('Google');">Sign in with Google</button><br /><br />
+<button (click)="signOut();">Sign out</button><br /><br />
+
+<div *ngIf="user">
+  <img src="{{ user.photoUrl }}">
+  <h4>{{user.name }}</h4>
+  <p>{{ user.email }}</p>
+  <p>{{ user.id }}</p>
+
+</div>
