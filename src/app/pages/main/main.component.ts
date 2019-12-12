@@ -45,11 +45,3 @@ signOut(): void {
   console.log('User signed out.');
 }
 
-
-  //oauth client id + secret
-///595390634225-500bd21qb61uqkrnpdm6r5pg6dc0kiq3.apps.googleusercontent.com
-//MgnyKg-qsWYAmXICDOj9xkyB
-
-//api key
-//AIzaSyDCEqwO20jACgxhCzfZ2_Nb4T3es6kxjAw
-}
