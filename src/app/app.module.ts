@@ -10,7 +10,7 @@ import { MainComponent } from './pages/main/main.component';
 import { SocialLoginModule, AuthServiceConfig, GoogleLoginProvider } from 'angular4-social-login';
 // Client id for the google oauth. This is used for validation of our application to google.
 // https://developers.google.com/identity/sign-in/web/sign-in#before_you_begin
-const google_oauth_client_id:string = '595390634225-500bd21qb61uqkrnpdm6r5pg6dc0kiq3.apps.googleusercontent.com';
+const google_oauth_client_id:string = HIDDEN KEY
 let config = new AuthServiceConfig([
   {
     id: GoogleLoginProvider.PROVIDER_ID,
